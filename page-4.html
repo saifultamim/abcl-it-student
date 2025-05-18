@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind config  -->
+    <style></style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>ABCL IT STUDENT</title>
+  </head>
+  <body>
+    <!-- marketing e-book start -->
+    <div
+      class="flex justify-between bg-[#F7F7F7] shadow-[6px_6px_12px_#899499] relative w-11/12 mx-auto mt-20"
+    >
+      <!-- left side -->
+      <div class="border border-green-600 font-montserrat px-8 py-3">
+        <p class="font-bold text-[14px] text-[#2C2C2C]">Marketing E-book</p>
+        <p class="font-extrabold text-5xl text-[#B0B0B0]">IDENTITY MARKETING</p>
+        <p class="text-xl font-medium">Veronika Romney</p>
+      </div>
+      <!-- right side -->
+      <div class="border border-red-600">
+        <img
+          src="/images/library/books.png"
+          alt="canva"
+          class="lg:w-[11rem] md:w-[6rem] border border-yellow-600 absolute z-10 right-0 -top-2/4"
+        />
+      </div>
+    </div>
+    <!-- marketing e-book end -->
+  </body>
+</html>
